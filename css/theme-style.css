@@ -33,6 +33,7 @@
 .page-theme .wrapper-banner {
     padding: 30px 0;
     position: relative;
+    clear: both;
 }
 
 .page-theme .wrapper-banner .banner-background {
@@ -167,6 +168,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .page-theme .tab-step ul li {
@@ -238,6 +240,7 @@
 
 .page-theme .step1-main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .page-theme .step1-main .list-staff {
@@ -393,4 +396,117 @@
 .page-theme .tab-content .group-form.display-flex .button-style {
     margin-left: auto;
     margin-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .page-theme .group-form,
+    .page-theme .box-service{
+        max-width: 80%;
+    }
+
+    .page-theme .form-style {
+        max-width: 100%;
+    }
+
+    .page-theme .step1-main .list-staff {
+        width: 35%;
+    }
+    .page-theme .step1-main > form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-theme .wrapper-banner {
+        padding: 70px 0
+    }
+    .page-theme .wrapper-banner .banner-background {
+        opacity: .5;
+        right: 0;
+        background-size: cover;
+    }
+
+    .page-theme .group-form,
+    .page-theme .form-style,
+    #info-register{
+        max-width: 80%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .page-theme .box-service {
+        max-width: 100%;
+    }
+
+    .page-theme .step1-main .list-staff,
+    .page-theme .step1-main > form,
+    .page-theme .step1-main > form > .group-form{
+        width: 100%;
+    }
+
+    .page-theme .step1-main > form > .group-form {
+        max-width: 100%;
+    }
+
+    .page-theme .step1-main .list-staff {
+        margin-bottom: 2rem;
+    }
+
+    .page-theme .step1-main .list-staff ul {
+        max-height: 225px;
+    }
+
+    .page-theme .tab-step ul li {
+        font-size: 14px;
+    }
+
+    .page-theme .button-style:disabled {
+        background: rgba(234, 44, 175, 0.68);
+    }
+
+    .page-theme .tab-content .tab-text h3 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page-theme .group-form,
+    .page-theme .form-style,
+    .page-theme .step1-main > form > .group-form,
+    .page-theme .box-service{
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 525px) {
+    .page-theme .tab-step ul li {
+        padding:5px 0;
+    }
+    .page-theme .tab-step ul li#step-two, .page-theme .tab-step ul li#step-three {
+        margin-left: -50px;
+        padding-left: 10px
+    }
+
+    .box-main .box-item .item-left {
+        width: 35%;
+    }
+
+    .box-main .box-item .item-right {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page-theme .tab-step ul li {
+        border-radius: 15px;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    .page-theme .tab-step ul li#step-two, .page-theme .tab-step ul li#step-three {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
 }
