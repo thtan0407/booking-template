@@ -1,0 +1,396 @@
+:root {
+    --main-color: #CA1391;
+    --main-2-color: #2d2c40;
+    --hover-color: #f313b1;
+}
+
+.page-theme .hb-header {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    background: #fff;
+}
+
+.page-theme .hb-cart li .hb-btn.changehover {
+    background: var(--main-2-color)
+}
+
+.page-theme .hb-topbar,
+.page-theme .hb-btn,
+.page-theme .hb-socialicons li a
+.page-theme .hb-btn:hover,
+.page-theme .hb-socialicons li a:hover,
+.page-theme .hb-cart li .hb-btn.changehover:hover,
+.page-theme .button-style:hover,
+.page-theme .button-style:focus {
+    transition: .3s all linear;
+    background: var(--hover-color);
+}
+
+.page-theme .hb-navigation ul li:hover > a,
+.page-theme .hb-navigation ul li .sub-menu li a:hover {
+    color: var(--hover-color)
+}
+
+.page-theme .wrapper-banner {
+    padding: 30px 0;
+    position: relative;
+}
+
+.page-theme .wrapper-banner .banner-background {
+    background: url('../images/appointment-decor.png') no-repeat top left;
+    background-size: contain;
+    position: absolute;
+    width: 511px;
+    height: 612px;
+    right: -65px;
+    bottom: -70px;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.page-theme .hb-innerbanner-area {
+    float: none;
+}
+
+.page-theme .hb-bannarheading h1,
+.page-theme .hb-breadcrumb,
+.page-theme .hb-breadcrumb li a,
+.page-theme .hb-breadcrumb li:after {
+    color: var(--main-2-color)
+}
+
+.page-theme .hb-breadcrumb li {
+    font-weight: bold;
+}
+
+.page-theme .hb-breadcrumb li a {
+    font-weight: 500;
+}
+
+.page-theme .form-style {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.page-theme .group-form {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto 2rem;
+}
+
+.page-theme .input-style,
+.page-theme .select-style {
+    width: 100%;
+    border-radius: 30px;
+    height: 40px;
+    line-height: 40px;
+    background: #FAFBFD;
+    padding: 10px 20px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    transition: .3s all;
+    color: #333;
+    font-size: 14px;
+}
+
+.page-theme .select-style {
+    background: url(../images/arrow-down.png) no-repeat 98%;
+    background-color: #FAFBFD;
+    background-size: 20px;
+    -webkit-appearance: none;
+    line-height: unset;
+}
+
+.page-theme .input-style::placeholder {
+    color: #333;
+}
+
+.page-theme .input-style:disabled,
+.page-theme .select-style:disabled {
+    background-color: #d9d9d9;
+}
+
+.page-theme .input-style:focus,
+.page-theme .select-style:focus {
+    outline-offset: -2px;
+    border-color: var(--main-color);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(202, 19, 145, .6) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(202, 19, 145, .6) !important;
+}
+
+.page-theme .button-style {
+    height: 40px;
+    color: #fff;
+    padding: 0 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    font: 500 14px/40px 'Poppins', Arial, Helvetica, sans-serif;
+    background: var(--main-color);
+    pointer-events: all;
+    cursor: pointer;
+    margin: 1rem auto 0;
+    outline: none;
+    transition: .3s all linear;
+}
+
+.page-theme .form-style .link-style {
+    text-align: center;
+    display: block;
+    color: var(--main-color);
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.page-theme span.error {
+    color: #FF4129;
+    font-size: 14px;
+    display: none;
+}
+
+.page-theme .note-style {
+    font-size: 13px;
+    color: #666
+}
+
+.page-theme .note-style span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.page-theme .tab-step ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0;
+}
+
+.page-theme .tab-step ul li {
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    background: #FAFBFD;
+    font-size: 18px;
+    display: block;
+    border-radius: 40px;
+    transition: .3s ease-in-out all;
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+.page-theme .tab-step ul li#step-one {
+    position: relative;
+    z-index: 3;
+}
+
+.page-theme .tab-step ul li#step-two {
+    position: relative;
+    z-index: 2;
+    margin-left: -75px;
+}
+
+.page-theme .tab-step ul li#step-three {
+    position: relative;
+    z-index: 1;
+    margin-left: -75px;
+}
+
+.page-theme .tab-step ul li.active {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.page-theme .tab-content {
+    padding: 50px 0;
+}
+
+.page-theme .tab-content .tab-pane {
+    display: none;
+}
+
+.page-theme .tab-content .active {
+    display: block;
+}
+
+.page-theme .tab-content .tab-text {
+    text-align: center;
+}
+
+.page-theme .tab-content .tab-text h3 {
+    margin-bottom: 0;
+    padding: 70px 0;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.page-theme .tab-content .fade {
+    transition-duration: 0.3s;
+}
+
+.page-theme .step1-main {
+    display: flex;
+}
+
+.page-theme .step1-main .list-staff {
+    width: 30%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.page-theme .heading-title {
+    background: var(--main-color);
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.page-theme .step1-main .list-staff ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    background: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    max-height: 355px;
+    overflow-y: auto;
+}
+
+.page-theme .step1-main .list-staff ul::-webkit-scrollbar {
+    width: 4px;
+}
+
+.page-theme .step1-main .list-staff ul::-webkit-scrollbar-thumb {
+    background: #c9c9c9;
+}
+
+.page-theme .step1-main .list-staff ul::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+.page-theme .step1-main .list-staff ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 7px 15px;
+    color: #181818;
+    font-size: 14px;
+}
+
+.page-theme .step1-main .list-staff ul li a img {
+    width: 30px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.page-theme .step1-main .list-staff ul li a .staff-name {
+    width: calc(100% - 60px);
+    padding-left: 10px;
+}
+
+.page-theme .step1-main > form {
+    width: 70%;
+}
+
+.page-theme .step1-main > form > .group-form {
+    max-width: 80%;
+}
+
+.page-theme .box-service {
+    max-width: 50%;
+    margin: 0 auto 2rem;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.box-main {
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #d9d9d9;
+}
+
+.box-main .box-item {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.box-main .box-item:last-child {
+    margin-bottom: 0;
+}
+
+.box-main .box-item .item-left {
+    width: 30%;
+    font-weight: bold;
+}
+
+.box-main .box-item .item-right {
+    width: calc(100% - 30%);
+}
+
+.page-theme .box-main .group-form {
+    max-width: 100%;
+}
+
+.page-theme .box-main .group-form .select-style {
+    background-color: #fff;
+}
+
+.page-theme .box-main .group-form .select-style:disabled {
+    background-color: #f1f1f1;
+}
+
+.page-theme .button-style:disabled {
+    background: rgba(234, 44, 175, 0.28);
+}
+
+.box-result {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.box-result .result-list {
+    padding: 1rem;
+    background: #f1f1f1;
+}
+
+.box-close {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.box-close a {
+    color: #333 !important;
+    font-size: 12px;
+}
+
+.display-flex {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-theme .tab-content a {
+    color: var(--main-color)
+}
+
+.page-theme .tab-content .group-form.display-flex .button-style {
+    margin-left: auto;
+    margin-right: 0;
+}
