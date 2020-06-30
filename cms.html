@@ -1,0 +1,233 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/theme-style.css">
+</head>
+<body class="page-cms">
+
+<section role="main" class="content-body">
+    <section class="panel">
+        <header class="panel-heading" id="panelTitle">
+            <h2 class="panel-title">Table List</h2>
+        </header>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mb-md">
+                        <button id="addToTable" class="btn_create">
+                            <span>Create <i class="fa fa-pencil-alt"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="">
+                        <div class="search__main">
+                            <div class="search__input_left">
+                                <input type="text" placeholder="Tìm kiếm ...">
+                                <button>
+                                    <i class="fa fa-save"></i>
+                                </button>
+                            </div>
+                            <div class="search__input_right">
+                                <div class="search__input_item">
+                                    <label for="">Từ ngày:</label>
+                                    <input type="text" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="search__input_item">
+                                    <label for="">Đến ngày:</label>
+                                    <input type="text" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="search__input_item">
+                                    <label for="">Sắp xếp:</label>
+                                    <select name="" id="">
+                                        <option value="">Tiền nợ giảm</option>
+                                        <option value="">Tiền nợ tăng</option>
+                                        <option value="">Tiền nợ giảm</option>
+                                        <option value="">Tiền nợ tăng</option>
+                                    </select>
+                                </div>
+                                <div class="search__input__item_child">
+                                    <button class="btn button-primary">
+                                        <i class="fa fa-filter"></i>
+                                    </button>
+                                </div>
+                                <div class="search__input__item_child">
+                                    <a role="button" data-toggle="collapse"
+                                       href="#collapseSearch" aria-expanded="false"
+                                       aria-controls="collapseSearch" class="btn btn-default">
+                                        <i class="fa fa-sliders-h"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="collapse" id="collapseSearch">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="collapse__search_main">
+                            <div class="collapse__search_item">
+                                <label for="">Trạng thái phòng</label>
+                                <select name="" id="">
+                                    <option value="">- Tất cả -</option>
+                                    <option value="">Trống</option>
+                                    <option value="">Đầy</option>
+                                </select>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Điện nước</label>
+                                <select name="" id="">
+                                    <option value="">Đã ghi</option>
+                                    <option value="">Chưa ghi</option>
+                                </select>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Phòng sắp trống</label>
+                                <div class="collapse__search_item_child">
+                                    <input type="text" value="Từ ngày">
+                                    <input type="text" value="Đến ngày">
+                                </div>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Ngày dọn vào</label>
+                                <div class="collapse__search_item_child">
+                                    <input type="text" value="Từ ngày">
+                                    <input type="text" value="Đến ngày">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse__search_main">
+                            <div class="collapse__search_item">
+                                <label for="">Nhà/dãy trọ</label>
+                                <select name="" id="">
+                                    <option value="">319 CMT7, Trương Định</option>
+                                    <option value="">319 CMT7, Trương Định</option>
+                                    <option value="">319 CMT7, Trương Định</option>
+                                </select>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Thu tiền</label>
+                                <select name="" id="">
+                                    <option value="">Đã thu tiền</option>
+                                    <option value="">Chưa thu tiền</option>
+                                </select>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Loại phòng</label>
+                                <select name="" id="">
+                                    <option value="">Dài hạn</option>
+                                    <option value="">Ngắn hạn</option>
+                                </select>
+                            </div>
+                            <div class="collapse__search_item">
+                                <label for="">Tiền nợ</label>
+                                <select name="" id="">
+                                    <option value="">Không nợ</option>
+                                    <option value="">Có nợ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="collapse__search_main text-right justify-content-end">
+                            <button class="btn_save">
+                                <span>Tìm nâng cao</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="tableCMS table table-hover table-bordered table-striped table-condensed mb-none">
+                    <thead>
+                    <tr>
+                        <th class="text-center" style="width:250px">Nhân viên</th>
+                        <th class="text-center" style="width:150px"></th>
+                        <th class="text-center" style="width:150px">Giờ vào</th>
+                        <th class="text-center" style="width:150px">Giờ ra</th>
+                        <th class="text-center" style="width:150px">Giờ vào thực tế</th>
+                        <th class="text-center" style="width:150px">Giờ ra thực tế</th>
+                        <th class="text-center" style="width:150px">Đi trễ</th>
+                        <th class="text-center" style="width:150px">Về sớm</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Nguyễn Văn A</td>
+                        <td>
+                            <span class="time__label time__in">In</span>
+                        </td>
+                        <td>
+                            08:00
+                        </td>
+                        <td>
+                            21:00
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nguyễn Văn A</td>
+                        <td>
+                            <span class="time__label time__out">Out</span>
+                        </td>
+                        <td>
+                            08:00
+                        </td>
+                        <td>
+                            21:00
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- start: page -->
+
+    <!-- end: page -->
+</section>
+
+<script src="js/vendor/jquery-library.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/theme-function.js"></script>
+</body>
+</html>

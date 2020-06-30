@@ -31,7 +31,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/anhhung-freelance" />
+    <property name="last_opened_file_path" value="D:/VietCore/suade" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\_Shortcut\anhnam-freelance\booking-template\js" />
+      <recent name="E:\_Shortcut\anhnam-freelance\booking-template\css" />
+      <recent name="E:\_Shortcut\anhnam-freelance\booking-template" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,6 +54,13 @@
       <workItem from="1593321432186" duration="12164000" />
       <workItem from="1593336899093" duration="4871000" />
       <workItem from="1593352103083" duration="2162000" />
+      <workItem from="1593354483906" duration="185000" />
+      <workItem from="1593392797787" duration="79000" />
+      <workItem from="1593397795829" duration="1401000" />
+      <workItem from="1593423544156" duration="2794000" />
+      <workItem from="1593431413329" duration="2918000" />
+      <workItem from="1593443921140" duration="38000" />
+      <workItem from="1593479216417" duration="244000" />
     </task>
     <servers />
   </component>
@@ -54,14 +68,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593330115509">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593433834021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593330115509" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593329708767">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593433834021" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593479458970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593329708767" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593479458970" />
     <state x="301" y="65" width="763" height="598" key="find.popup" timestamp="1593311309997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

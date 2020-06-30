@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/dropzone.min.css">
+    <link rel="stylesheet" href="css/theme-style.css">
+</head>
+<body class="page-cms">
+
+<section role="main" class="content-body">
+    <div class="col-md-8 col-md-offset-2">
+        <section class="panel">
+            <header class="panel-heading" id="panelTitle">
+                <h2 class="panel-title">Template Editor</h2>
+            </header>
+            <div class="panel-body">
+                <div class="row">
+                    <form action="" class="form-editor">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Banner:</label>
+                                <div id="uploadDropzone" class="dropzone">
+                                    <div class="text-center"><img src="images/img-thumb.png" width="60px" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Title:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="" id="">Hello word</textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- start: page -->
+
+    <!-- end: page -->
+</section>
+
+<script src="js/vendor/jquery-library.js"></script>
+<script src="js/dropzone.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/theme-function.js"></script>
+<script src="https://cdn.tiny.cloud/1/d3xc9mjm4hkpc1fosg7kewexhs1eahklgui335rx8j9mf7sr/tinymce/5/tinymce.min.js"
+        referrerpolicy="origin"></script>
+
+<script>
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+        toolbar_mode: 'floating',
+    });
+</script>
+<script>
+    Dropzone.autoDiscover = false;
+
+    jQuery(document).ready(function () {
+        var myDropzone = new Dropzone("div#uploadDropzone", { url: "/file/post"});
+    })
+</script>
+</body>
+</html>
