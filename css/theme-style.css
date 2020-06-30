@@ -25,10 +25,16 @@
 .page-theme .hb-socialicons li a:hover,
 .page-theme .hb-cart li .hb-btn.changehover:hover,
 .page-theme .button-style:hover,
+.page-cms .button-style:hover,
 .page-theme .button-style:focus,
+.page-cms .button-style:focus,
 #back-top:hover {
     transition: .3s all linear;
     background: var(--hover-color);
+}
+
+.page-cms .button-style {
+    margin-top: 3rem !important;
 }
 
 .page-theme .hb-navigation ul li:hover > a,
@@ -124,7 +130,8 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(202, 19, 145, .6) !important;
 }
 
-.page-theme .button-style {
+.page-theme .button-style,
+.page-cms .button-style {
     height: 40px;
     color: #fff;
     padding: 0 40px;
@@ -362,7 +369,8 @@
     background-color: #f1f1f1;
 }
 
-.page-theme .button-style:disabled {
+.page-theme .button-style:disabled,
+.page-cms .button-style:disabled {
     background: rgba(234, 44, 175, 0.28);
 }
 
