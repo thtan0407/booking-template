@@ -87,4 +87,9 @@ $(function () {
         $(this).parents('.box-result').addClass('hidden');
         $(this).parents('#sendInfo-step2').find('button#nextStep3').prop('disabled', true);
     });
+
+//    Delete gallery
+    $('.gallery-delete a').click(function () {
+        $(this).parents('.col-md-4').remove();
+    });
 });

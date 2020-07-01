@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CMS</title>
+    <title>Create gallery</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/icofont.css">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/theme-style.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body class="page-new page-theme">
+<body class="page-cms page-theme">
 
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -194,303 +194,48 @@
 *************************************-->
 
 <section role="main" class="content-body">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4 text-center">
-                <div class="new-title">
-                    <a href="index.html"><img src="images/logo.png" alt="company logo here"></a>
-                    <h2>Our Gallery</h2>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="cms-form">
-                    <form action="">
-                        <div class="search__main">
-                            <div class="search__input_left">
-                                <input type="text" placeholder="Tìm kiếm ...">
-                                <button>
-                                    <i class="fa fa-save"></i>
-                                </button>
-                            </div>
-                            <div class="search__input_right">
-                                <div class="search__input_item">
-                                    <label for="">Từ ngày:</label>
-                                    <input type="text" placeholder="dd/mm/yyyy">
-                                </div>
-                                <div class="search__input_item">
-                                    <label for="">Đến ngày:</label>
-                                    <input type="text" placeholder="dd/mm/yyyy">
-                                </div>
-                                <div class="search__input_item">
-                                    <label for="">Sắp xếp:</label>
-                                    <select name="" id="">
-                                        <option value="">Tiền nợ giảm</option>
-                                        <option value="">Tiền nợ tăng</option>
-                                        <option value="">Tiền nợ giảm</option>
-                                        <option value="">Tiền nợ tăng</option>
-                                    </select>
-                                </div>
-                                <div class="search__input__item_child">
-                                    <button class="btn button-primary">
-                                        Search
-                                    </button>
+    <div class="col-md-8 col-md-offset-2">
+        <section class="panel">
+            <header class="panel-heading" id="panelTitle">
+                <h2 class="panel-title">Create Gallery</h2>
+            </header>
+            <div class="panel-body">
+                <div class="row">
+                    <form action="" class="form-editor">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Banner:</label>
+                                <div id="uploadDropzone" class="dropzone">
+                                    <div class="text-center"><img src="images/img-thumb.png" width="60px" alt=""></div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Title:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="">Select list:</label>
+                                <select class="form-control">
+                                    <option value="">Lorem ipsum.</option>
+                                    <option value="">Lorem ipsum.</option>
+                                    <option value="">Lorem ipsum.</option>
+                                    <option value="">Lorem ipsum.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="button-style">
+                                Create gallery
+                            </button>
                         </div>
                     </form>
                 </div>
-                <div class="cms-main">
-                    <div class="row">
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 mb-30">
-                            <div class="cms-item">
-                                <div class="cms-avatar">
-                                    <a href="#">
-                                        <img src="https://via.placeholder.com/400x300" alt="">
-                                    </a>
-                                </div>
-                                <div class="cms-content">
-                                    <div class="cms-content-top">
-                                        <div class="cms-category">
-                                            <a href="#">
-                                                News
-                                            </a>
-                                        </div>
-                                        <div class="cms-action">
-                                            <a href="" class="btn-delete">
-                                                Delete
-                                            </a>
-                                            <a href="" class="btn-update">
-                                                Update
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="cms-content-bottom">
-                                        <div class="cms-title">
-                                            <a href="#">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, soluta!
-                                            </a>
-                                        </div>
-                                        <div class="cms-meta">
-                                            <span>
-                                                <a href="">Administrator</a>
-                                            </span>
-                                            <span>
-                                                21 Mar 2017
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
+        </section>
     </div>
     <!-- start: page -->
 
@@ -617,7 +362,7 @@
     Dropzone.autoDiscover = false;
 
     jQuery(document).ready(function () {
-        var myDropzone = new Dropzone("div#uploadDropzone", {url: "/file/post"});
+        var myDropzone = new Dropzone("div#uploadDropzone", { url: "/file/post"});
     })
 </script>
 </body>
