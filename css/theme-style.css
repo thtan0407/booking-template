@@ -537,6 +537,11 @@ body.page-cms {
     font-size: 14px;
 }
 
+.content-body {
+    clear: both;
+    padding: 50px 0;
+}
+
 .page-cms .content-body {
     position: relative;
     padding: 40px;
@@ -1292,4 +1297,226 @@ body.page-cms {
     .cms-form .search__input__item_child {
         text-align: center;
     }
+}
+
+.salon-title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.salon-title span {
+    color: #ca1391;
+}
+
+.salon-left h5 {
+    margin: 3rem 0;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #000;
+}
+
+.salon-left p {
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.salon-left p a {
+    color: #333;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.salon-left p strong {
+    color: inherit;
+}
+
+.salon-left h4 {
+    font-weight: 400;
+    font-family: inherit;
+    color: #000;
+    font-size: 3rem;
+}
+
+.salon-social a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.salon-social a:hover i {
+    color: var(--main-color) !important
+}
+
+.salon-textmain {
+    background: #F8F8F8;
+    padding: 50px 0;
+    clear: both;
+    text-align: center;
+}
+
+.salon-textmain h4,
+.salon-background h4 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.salon-textmain p,
+.salon-background p {
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.page-nails .content-body {
+    padding-bottom: 0;
+}
+
+.salon-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(202, 19, 145, .9);
+    padding: 50px 0;
+    clear: both;
+    text-align: center;
+    transition: .3s all ease-in-out;
+    position: relative;
+    color: #fff;
+}
+
+.salon-background h4 {
+    color: #fff;
+}
+
+.salon-background:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(202, 19, 145, .1);
+    z-index: -1;
+}
+
+.salon-background:hover {
+    background-position: calc(50% + 10px) center;
+    background-position: -webkit-calc(50% + 10px) center;
+}
+
+.salon-background .button-style {
+    margin-top: 2rem;
+}
+
+.salon-reward-icon {
+    margin-top: 3rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.salon-reward-icon li {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.salon-reward-icon li .reward-icon-left {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: #ca1391;
+    position: relative;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.salon-reward-icon li .reward-icon-left img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.salon-reward-icon li .reward-icon-right {
+    width: calc(100% - 70px);
+    padding-left: 15px;
+}
+
+.salon-reward-icon li .reward-icon-right h5 {
+    margin: 0 0 1rem;
+    font-size: 1.8rem;
+}
+
+.nails-content p {
+    font-size: 13px;
+}
+
+.button-style-2 {
+    height: 40px;
+    color: var(--main-color);
+    padding: 0 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    font: 500 14px/40px 'Poppins', Arial, Helvetica, sans-serif;
+    border: 1px solid var(--main-color);
+    pointer-events: all;
+    cursor: pointer;
+    margin: 1rem auto 0;
+    outline: none;
+    transition: .3s all linear;
+}
+
+.nails-table table tr th {
+    text-align: left;
+    font-size: 1.8rem;
+    padding: 15px 10px;
+    border: 0;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.nails-table table tr td {
+    width: 50%;
+    text-align: left;
+    padding: 15px 10px;
+    border: 0;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.nails-description-item h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.nails-description-item p {
+    font-size: 14px;
+}
+
+.nails-description-item ul {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.nails-description-item ul li {
+    list-style: square;
+    font-size: 14px;
 }
