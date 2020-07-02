@@ -92,4 +92,9 @@ $(function () {
     $('.gallery-delete a').click(function () {
         $(this).parents('.col-md-4').remove();
     });
+
+
+    $(".career-button").click(function () {
+        $(this).parent().find('.career-f-hidden').trigger('click');
+    })
 });
