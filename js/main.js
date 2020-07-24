@@ -65,11 +65,14 @@ jQuery(document).on('ready', function() {
 		"use strict";
 
 	    var jQuerybackToTop = jQuery("#back-top");
+	    var jQueryhelpFix = jQuery("#openHelp");
 	    jQuery(window).on('scroll', function() {
 	        if (jQuery(this).scrollTop() > 100) {
 	            jQuerybackToTop.addClass('active');
+				jQueryhelpFix.addClass('active');
 	        } else {
 	            jQuerybackToTop.removeClass('active');
+				jQueryhelpFix.removeClass('active');
 	        }
 	    });
 	    jQuerybackToTop.on('click', function(e) {
@@ -560,7 +563,7 @@ jQuery(document).on('ready', function() {
 	// initialize fixed blocks on scroll
 	function initStickyScrollBlock() {
 		ResponsiveHelper.addRange({
-			'768..': {
+			'0..': {
 				on: function() {
 					jQuery('.hb-navigationarea').stickyScrollBlock({
 						setBoxHeight: false,

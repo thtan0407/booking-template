@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Create gallery</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-extended.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/icofont.css">
     <link rel="stylesheet" href="css/plugins.css">
@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/dropzone.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick.min.css">
+    <link rel="stylesheet" href="plugins/animate.min.css">
     <link rel="stylesheet" href="css/theme-style.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -49,7 +51,56 @@
                         </ul>
                     </div>
                     <div class="hb-socialicons-area">
-                        <span class="hb-timeandday">Open hours: 8.00-18.00 Mon-Fri</span>
+                        <div class="hb-timeandday" id="toggleTime">
+                            <a href="javascript:void(0)">
+                                <span><b>Today</b>: 9.00 A.M - 7:00 P.M</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <span>
+                                        <b>Monday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Tuesday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Wednesday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Thursday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Friday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Saturday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>Sunday: </b>
+                                        9:00 A.M - 7:00 P.M
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
                         <ul class="hb-socialicons hb-withoutbackground list-unstyled">
                             <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
@@ -255,7 +306,7 @@
                         <strong class="hb-logo">
                             <a href="javascript:void(0);"><img src="images/logo.png" alt=""></a>
                         </strong>
-                        <span class="hb-timeandday">Open hours: 8.00-18.00 Mon-Fri</span>
+                        <span class="hb-timeandday">Open: 9:00 A.M - 7:00 P.M Mon-Sun</span>
                         <ul class="list-unstyled hb-socialicons">
                             <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
@@ -318,11 +369,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                    <span class="hb-copyright">Copyright ©2018 DeerCreative.</span>
+                    <span class="hb-copyright">Copyright © 2015 - 2020 Bnails Salon and Spa LLC.</span>
                     <ul class="list-unstyled hb-footernav">
                         <li><a href="javascript:void(0);">About </a></li>
                         <li><a href="javascript:void(0);">Terms & Conditions</a></li>
-                        <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                        <li><a href="policy.html">Privacy Policy</a></li>
                         <li><a href="javascript:void(0);">Contact</a></li>
                     </ul>
                 </div>
@@ -330,6 +381,56 @@
         </div>
     </div>
 </footer>
+
+<div id="openHelp" class="helpfix">
+    <a title="Help" data-toggle="modal" data-target="#modalHelp" href="" onclick="return false;">
+        <i class="fas fa-question"></i>
+    </a>
+</div>
+
+<div class="modal fade" id="modalHelp" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="career-f-group">
+                        <label for="">Lorem ipsum.</label>
+                        <input type="text" placeholder="Lorem ipsum" class="form-control career-f-input">
+                    </div>
+                    <div class="career-f-group">
+                        <label for="">Lorem ipsum.</label>
+                        <input type="text" placeholder="Lorem ipsum" class="form-control career-f-input">
+                    </div>
+                    <div class="career-f-group">
+                        <label for="">Lorem ipsum.</label>
+                        <select name="" id="" class="career-f-select form-control">
+                            <option value="">Please select</option>
+                            <option value="">Lorem ipsum dolor.</option>
+                            <option value="">Lorem ipsum dolor.</option>
+                            <option value="">Lorem ipsum dolor.</option>
+                            <option value="">Lorem ipsum dolor.</option>
+                            <option value="">Lorem ipsum dolor.</option>
+                        </select>
+                    </div>
+                    <div class="career-f-group">
+                        <label for="">Lorem ipsum.</label>
+                        <textarea name="" class="form-control career-f-textarea"
+                                  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing."></textarea>
+                    </div>
+                    <div class="career-f-group text-center mt-30">
+                        <button class="btn-style">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
 <div id="loader" class="loader-holder hidden">
     <div class="block">
@@ -347,6 +448,15 @@
 <script src="js/vendor/jquery-library.js"></script>
 <script src="js/dropzone.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/isotop.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/countTo.js"></script>
+<script src="js/appear.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/wow/wow.js"></script>
+<script src="js/main.js"></script>
 <script src="js/theme-function.js"></script>
 <script src="https://cdn.tiny.cloud/1/d3xc9mjm4hkpc1fosg7kewexhs1eahklgui335rx8j9mf7sr/tinymce/5/tinymce.min.js"
         referrerpolicy="origin"></script>

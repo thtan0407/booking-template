@@ -12,6 +12,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -31,11 +45,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../job3/Template admin" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\_Shortcut\anhnam-freelance\booking-template" />
+      <recent name="E:\_Shortcut\anhnam-freelance\booking-template\plugins" />
       <recent name="E:\_Shortcut\anhnam-freelance\booking-template\js" />
       <recent name="E:\_Shortcut\anhnam-freelance\booking-template\css" />
     </key>
@@ -67,7 +83,22 @@
       <workItem from="1593607048935" duration="8700000" />
       <workItem from="1593651882854" duration="411000" />
       <workItem from="1593679831886" duration="5416000" />
-      <workItem from="1593689683325" duration="894000" />
+      <workItem from="1593689683325" duration="2886000" />
+      <workItem from="1594297181860" duration="4034000" />
+      <workItem from="1594302320040" duration="3655000" />
+      <workItem from="1594343125572" duration="76000" />
+      <workItem from="1594354422389" duration="2527000" />
+      <workItem from="1594362741886" duration="25000" />
+      <workItem from="1594375275818" duration="1144000" />
+      <workItem from="1594382460865" duration="12413000" />
+      <workItem from="1594429392583" duration="93000" />
+      <workItem from="1594439917910" duration="3048000" />
+      <workItem from="1594446941547" duration="5246000" />
+      <workItem from="1594471965273" duration="2854000" />
+      <workItem from="1594688641773" duration="1809000" />
+      <workItem from="1594785790012" duration="608000" />
+      <workItem from="1594795238036" duration="930000" />
+      <workItem from="1595040717635" duration="1385000" />
     </task>
     <servers />
   </component>
@@ -79,18 +110,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593433834021" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593652287000">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595042326608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593652287000" />
-    <state x="301" y="65" width="763" height="598" key="find.popup" timestamp="1593615674390">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1595042326608" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594478798436" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1594476465792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="301" y="65" width="763" height="598" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593615674390" />
-    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1593311100014">
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594476465792" />
+    <state x="408" y="89" width="763" height="598" key="find.popup" timestamp="1594689750354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1593311100014" />
+    <state x="408" y="89" width="763" height="598" key="find.popup/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1594689750354" />
+    <state x="301" y="65" width="763" height="598" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1594385232042" />
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1594304219924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1594304219924" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593327406764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
